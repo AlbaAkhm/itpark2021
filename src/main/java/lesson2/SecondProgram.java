@@ -14,10 +14,16 @@ public class SecondProgram {
         System.out.println(resultOfMinus);
         long multiplyAndSumma = multiplyAndSumma(5);
         System.out.println(multiplyAndSumma);
+        long divideAndMinus = divideAndMinus(50,10);
+        System.out.println(divideAndMinus);
+        long differenceCube = differenceCube(81,13);
+        System.out.println(differenceCube);
+        long basicTrigonometricIdentity = basicTrigonometricIdentity(405);
+        System.out.println(basicTrigonometricIdentity);
     }
 
     /**
-     *
+     * Метод будет складывать два аргумента и возвращать результат этой операции
      * @param arg1 первый аргумент
      * @param arg2 второй аргумент
      * @return результат сложения
@@ -31,10 +37,22 @@ public class SecondProgram {
         return result;
     }
     public static long minus(int arg1, int arg2) {
-                 return arg1 - arg2;
+        return arg1 - arg2;
     }
     public static long multiplyAndSumma(int arg1) {
         int result = 3 * arg1 + 15;
+        return result;
+    }
+    public static long divideAndMinus(int arg1, int arg2) {
+        int result = arg1 / 2 - arg2 / 2;
+        return result;
+    }
+    public static long differenceCube(int arg1, int arg2)  {
+        int result = (int) ((Math.pow(arg1,3)) - (3 * (Math.pow(arg1,2)) * arg2) + (3 * arg1 * (Math.pow(arg2,2))) - (Math.pow(arg2,3)));
+        return result;
+    }
+    public static long basicTrigonometricIdentity(int arg1) {
+        int result = (int) ((Math.pow(Math.sin(arg1),2)) + (Math.pow(Math.cos(arg1),2)));
         return result;
     }
 
