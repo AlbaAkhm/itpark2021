@@ -35,7 +35,6 @@ public class HomeWork3 {
             System.out.println("x2 = " + x2);
         }
 
-        in.close();
     }
 }
 
