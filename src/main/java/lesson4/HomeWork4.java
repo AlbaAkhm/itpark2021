@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class HomeWork4 {
     public static void main(String[] args) {
 
-        //этот метод будет извлекать корень квадратный из введенного числа a
+        //этот метод будет извлекать корень квадратный из введенного числа num
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите число a = ");
+        System.out.print("Введите число num = ");
         int num = scanner.nextInt();
         if (num < 0) {
             System.out.println("Нельзя извлекать квадратный корень из отрицательного числа");
