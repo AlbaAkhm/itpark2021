@@ -25,6 +25,7 @@ public class HomeWork5 {
         int x2 = 1;
         int summa = 0;
 
+
         for (int i = 1; i < value; i++) {
             summa = x1 + x2;
             x2 = summa;
