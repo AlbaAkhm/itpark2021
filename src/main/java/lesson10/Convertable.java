@@ -8,7 +8,7 @@ public interface Convertable {
     int Y = 32;
 
 
-    double converter(Temperature value);
+    double converter(double value);
 
 
 }
